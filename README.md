@@ -7,6 +7,11 @@ The approach used is:
     c) Merge all the sorted files into one. It uses the concept of merging K sorted lists, 
     picking from the first elements.
 
+Build and run:
+    
+    $ ./build.sh
+    $ sortlargefile -f ./file-small.csv -n 3 -c 1 4 5
+
 Tested with:
 
     https://www.kaggle.com/mkechinov/ecommerce-behavior-data-from-multi-category-store?select=2019-Nov.csv

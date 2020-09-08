@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sort-large-files.iml" filepath="$PROJECT_DIR$/sort-large-files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sort-large-csv-file.iml" filepath="$PROJECT_DIR$/sort-large-csv-file.iml" />
     </modules>
   </component>
 </project>

@@ -127,7 +127,7 @@ public class SortLargeFile {
         this.columnNumbers = columnNumbers;
         this.nonSortedFile = new File(nonSortedFileName);
         this.fileSizeBytes = nonSortedFile.length();
-        this.outputDirName = nonSortedFileName.replaceAll(CSV_EXTENSION, "/");
+        this.outputDirName = nonSortedFileName.replaceAll(CSV_EXTENSION, "-result/");
         this.maxSplitFileSizeBytes = fileSizeBytes / splitIntoNumFiles;
 
         System.out.println("File name: " + nonSortedFile.getName());
