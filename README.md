@@ -8,9 +8,16 @@ The approach used is:
     picking from the first elements.
 
 Build and run:
-    
+
+a) No parallel
+
     $ ./build.sh
     $ sortlargefile -f ./file-small.csv -n 3 -c 1 4 5
+
+b) Parallel
+
+    $ ./build-parallel.sh
+    $ sortlargefile-parallel -f ./file-small.csv -n 3 -c 1 4 5
 
 Tested with:
 
@@ -44,3 +51,7 @@ Tested with:
     b) Time to sort files: 269.0 sec
     c) Time to merge: 168.0 sec
     Total time: 482.0 sec
+
+Dependencies:
+    
+    https://commons.apache.org/proper/commons-cli/index.html
